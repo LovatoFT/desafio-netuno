@@ -1,14 +1,16 @@
 @charset "UTF-8";
 
-@media screen and (max-width: 730px){
-    .nav-bar {
-        padding: 1.5rem 4rem;
-    }
-
+@media screen and (max-width: 768px){
+    
     .nav-item {
         display: none;
     }
 
+    nav img { 
+        width: 160px;
+    }
+
+    
     .seletivo-button {
         display: none;
     }
@@ -25,7 +27,8 @@
         background-color: transparent;
         border: none;
         cursor: pointer;
-        width: 30px;
+        padding: 0.2rem 3rem;
+        width: 10px;
         
     }
 
@@ -43,6 +46,8 @@
     .menu-celular .nav-item {
         display: block;
         padding-bottom: 1rem;
+        font-size: 1.5em;
+        
     }
 
     .menu-celular .seletivo-button {
