@@ -1,0 +1,85 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    padding: 0px;
+    margin: 0px;
+    font-family: "Hanken Grotesk", sans-serif;
+    font-size: medium;
+    background-color: #1A7FBD;
+}
+
+header {
+    background-color: #1A7FBD;
+    box-shadow: 0px 3px 10px #0a324b70; 
+    /* decidir depois com box ou sem box */
+    
+}    
+
+.nav-bar {
+    display: flex;
+    justify-content: space-between;
+    padding: 1.0rem 3rem;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+nav img { 
+    width: 200px;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+}
+
+.nav-list ul {
+    display: flex;
+    justify-content: center;
+    list-style-type: none;
+}
+
+.nav-item {
+    margin:0 3vw;
+}
+
+.nav-link {
+    text-decoration: none;
+    font-size: 1.5em;
+    color: white;
+    font-weight: 400;
+}
+
+.seletivo-button button {
+    box-shadow: 1px 1px 1px black;
+    background-color: rgb(56, 56, 56);
+    padding: 10px 10px;
+    border-radius: 5px;
+}
+
+.seletivo-button button a {
+    background-color: rgb(56, 56, 56);
+    text-decoration: none;
+    color: wheat;
+    font-weight: 400;
+    font-size: 1rem;
+}
+
+.menu-celular-icon {
+    display: none;
+}
+
+.menu-celular {
+    display: none;
+}
+
+hr#linha {
+    border: 0;
+    height: 1px;
+    background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgba(255, 255, 255, 1), rgba(255, 255, 255, 0));
+}
+
