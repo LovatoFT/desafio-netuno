@@ -1,0 +1,19 @@
+@media screen and (min-width: 992px){
+
+    span#burguer {
+        display: none;
+    }
+    
+    
+    nav li {
+        
+        
+        font-size: 20px;
+        font-weight: 200;
+        color: #A4DCFF;
+        
+    }
+    
+    
+    
+}
