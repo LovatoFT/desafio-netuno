@@ -44,11 +44,9 @@
         width: 92vw;
     }
     
-    header > nav > menu > li {
+    menu ul li {
         
-        margin-bottom: 5px;
-        font-size: 14px;
-        font-weight: 200;
+        width: 92vw;
         color: #A4DCFF;
         
         
