@@ -29,5 +29,14 @@
         padding: 5px 5px;
         border-radius: 5px;
     }
+
+    /* 
     
+            parte do formulário 
+    
+    */
+    
+    section#login {
+        width: 50vw;
+    }
 }
