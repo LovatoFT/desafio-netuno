@@ -76,6 +76,15 @@
         
     }
 
+    img#banner {
+        width: 100vw;
+        display: flex;
+        top: 50%;
+        left: 50%;
+        overflow: hidden;
+        transform: translate(-20%);
+    }
+
     section#formulario {
         
         position: absolute;
@@ -132,18 +141,18 @@
 
     form > div.campo {
        
-        margin: 10px 10px;
+        margin: 10px 13px;
         align-items: center;
-        width: 92%;
+        width: 91%;
         height: 40%;
         display: block;  
-        border: 1px solid rgba(0, 0, 0, 0.500);
+        border: 1px solid   rgba(0, 0, 0, 0.500);
         
     }
 
     form > div.campolugar {
-        margin: 10px 10px;
-        width: 92%;
+        margin: 10px 13px;
+        width: 91%;
         height: 40%;
         display: block;    
         border: 1px solid rgba(0, 0, 0, 0.500);
@@ -155,7 +164,7 @@
     }
 
     form > div > input {
-        background-color: rgb(255, 255, 255);
+        background-color: white;
         border: none;
         transform: translateY(-1px);
         width: 89%;
@@ -188,6 +197,7 @@
     }
 
     div .form-tec {
+        font-size: 10vh;
         background-color: #1A7FBD;
         text-align: left;
         margin: 10px 0px;
@@ -195,8 +205,16 @@
         height: 120px;
 
     }
+
+    .item1 {
+        font-size: 1.4vh;
+        
+    }
+
     div .iform-tec {
-        text-indent: 10px;
+        font-size: 1px;
+        color: white;
+        text-indent: 1px;
         padding: 10px;
         display: flex;
         flex-direction: row;
@@ -204,15 +222,40 @@
         justify-content: first baseline;
         align-items: center;
         
-   }
-    
-    
+   }  
 
 
-    div .iform-tec > h2{
+    div .iform-tec > h2 {
+        font-size: 1.8vh;
+        color: white;
         text-align: left;
-        text-indent: 10px;
+        text-indent: 1px;
+
+    }
+
+    #question {
+        
+        
+        
+        
+        color: #1A7FBD;
+        
+    }
+    
+    .option {
+        
+        all: unset;
+        width: 1rem;
+        height: 1rem;
+        border: 0.1rem solid #1A7FBD;
+        border-radius: 0.2rem;
+        cursor: pointer;
+        margin-right: 8%;
+        position: relative;
+
     }
 
 }
+
+
     

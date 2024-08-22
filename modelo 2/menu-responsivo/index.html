@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Desafio Netuno</title>
+    <link rel="shortcut icon" href="imagens/favicon.png" type="image/x-icon">
     <link rel="stylesheet" href="estilos/style.css">
     <link rel="stylesheet" href="estilos/mobile.css">
     <link rel="stylesheet" href="estilos/tablet.css">
@@ -47,6 +48,9 @@
     </header>
     <hr id="linha">
     <main>
+        <div>
+            <img id="banner" src="imagens/bannertopo.png" alt="banner">
+        </div>
         <section id="formulario">
                 <div id="formulario">
                 <h1>Formulário de Cadastro</h1>
@@ -165,10 +169,29 @@
                     </label>
                 </label>
                 </div>
+
+                <div id="experiencia-profissional">
+                    <label id="question">
+                        <h3>Já trabalhou com desenvolvimento?</h3>
+                        <input type="radio" name="option" class="option">Sim 
+                    </label>
+                    <label id="question">
+                        <input type="radio" name="option" class="option">Não
+                    </label>
+                </div>
+
+                <hr id="hr-form">
+                    <h4 id="ps-form1">(*) Campos obrigatórios</h4>
+                
+                <div>
+                    <button id="form-button">Enviar</button>
+                        <p><h3 id="ps-form2">Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em política de privacidade.</h3></p>
+                </div>    
             </div>
 
         </section>
     </main>
+    
 
     <script src="estilos/menu.js"></script>
 </body>
