@@ -52,7 +52,7 @@
             <img id="banner" src="imagens/bannertopo.png" alt="banner">
         </div>
         <section id="formulario">
-                <div id="formulario">
+            <div id="formulario">
                 <h1>Formulário de Cadastro</h1>
                 <p>Prencha seus Dados</p>
                 <form action="login.php" method="post" autocomplete="on">
@@ -109,86 +109,117 @@
 
                         <h2>Conhecimento de Programação*</h2>
 
-                    <label class="item1">
+                    <label class="itens">
                         <input type="checkbox" name="HTML" value="HTML"> 
                         HTML
                     </label>
 
-                    <label class="item2">
+                    <label class="itens">
                         <input type="checkbox" name="CSS" value="CSS" >
                         CSS
                     </label> 
 
-                    <label class="item3">
+                    <label class="itens">
                         <input type="checkbox"  name="JavaScript" value="JavaScript"> 
                         JavaScript
                     </label>
 
-                    <label class="item4">
+                    <label class="itens">
                         <input  type="checkbox" name="PHP" value="PHP">
                         PHP
                     </label>
 
-                    <label class="item5">
+                    <label class="itens">
                         <input  type="checkbox" name="NET" value="NET">
                         .NET
                     </label>
 
-                    <label class="item6">
+                    <label class="itens">
                         <input  type="checkbox"  name="Vue" value="Vue">
                         Vue.js
                     </label>
 
-                    <label class="item7">
+                    <label class="itens">
                         <input  type="checkbox"  name="ReactJS" value="ReactJS">
                         ReactJS
                     </label>
 
-                    <label class="item8">
+                    <label class="itens">
                         <input  type="checkbox" class="item" name="React Native" value="React Native"> React Native
                     </label>
 
-                    <label class="item9">
+                    <label class="itens">
                         <input  type="checkbox" class="item" name="Node" value="Node">
                         Node
                     </label>
 
-                    <label class="item10">
+                    <label class="itens">
                         <input  type="checkbox" class="item" name="Python" value="Python">
                         Python                      
                     </label>
 
-                    <label class="item11">
+                    <label class="itens">
                         <input  type="checkbox" class="item" name="Flutter" value="Flutter"> 
                         Flutter
                     </label>
 
-                    <label class="item12">
+                    <label class="itens">
                         <input  type="checkbox" class="item" name="Outras" value="Outras"> 
                         Outras
                     </label>
                 </label>
                 </div>
 
-                <div id="experiencia-profissional">
-                    <label id="question">
-                        <h3>Já trabalhou com desenvolvimento?</h3>
-                        <input type="radio" name="option" class="option">Sim 
-                    </label>
-                    <label id="question">
-                        <input type="radio" name="option" class="option">Não
-                    </label>
-                </div>
+                <label class="experiencia-profissional">
+                    <div class="trabalhou">
+                        <h2>Já trabalhou com desenvolvimento?</h2>
+                    </div>
+                    <div class="simounao">
+                        <label>
+                            <input type="radio" id="sim" name="fav_language" value="S"> 
+                            Sim
+                        </label>
+                    </div>
+                    <div class="simounao">
+                        <label>
+                            <input type="radio" id="nao" name="fav_language" value="N">
+                            Não
+                        </label>
+                    </div>
+                    
+                    <div class="hr-form">
+                        <hr id="hr-form">
+                        <p> [*] Campos Obrigatórios</p> 
+                    </div>
+                    <div class="enviar">
+                        <button id="form-button">Enviar</button>
+                    </div>
+                    <div class="term">
+                        <p>Ao clicar em enviar você concorda com todos os termos de uso de dados descritos em <a href="">política de privacidade</a></p>
+                    </div>
 
-                <hr id="hr-form">
-                    <h4 id="ps-form1">(*) Campos obrigatórios</h4>
-                
-                <div>
-                    <button id="form-button">Enviar</button>
-                        <p><h3 id="ps-form2">Ao clicar em enviar, você concorda com todos os termos de uso de dados descritos em política de privacidade.</h3></p>
-                </div>    
+                </label>    
             </div>
+        </section>
 
+        <section class="projeto" id="projeto">
+            <div class="img-dev">
+            </div>
+            <div class="intro-project">
+                <h1>O Projeto</h1>
+                    <p class="space">
+                        Com o “novo normal” causado pela pandemia dos
+                        últimos anos, mais empresas no mundo todo têm aberto oportunidades no modelo Home Office.
+                    </p>
+                    <p class="space">
+                        Alinhado a depreciação da moeda local, temos um alto índice de profissionais migrando para trabalhos em outros países.
+                    </p>                        
+                    <p class="space">
+                        <strong>
+                            O projeto Netuno, idealizado pela Fasters, tem por objetivo reduzir os estresses causados por recrutamento e turn over na área de tecnologia, bem como gerar oportunidades de carreira para novos profissionais.
+                        </strong>
+                    </p>
+            </div>
         </section>
     </main>
     

@@ -71,8 +71,9 @@
 
     main {
         position: relative;
+        
         height: 80vh;
-        width: 100vw;
+        width: 92vw;
         
     }
 
@@ -94,38 +95,22 @@
         
         background-color: white;
         width: 300px;
-        height: 600px;
+        height: 565px;
         border-radius: 2vh;
         
 
         transform: translate(-50%, -35%);
         transition-duration: .5s; 
         transition-timing-function: ease;
-        
-        
-        
-        
-
-        
-    
-
-        
     }
 
     div#formulario {
         
         display: block;
-        
-          
-        
-    }   
-
-    
-        
-    
+    }
     
     div#formulario > h1 {
-        
+        color: rgba(0, 0, 0, 0.500);
         text-align: center;
         margin: 10px 10px;
         text-align: left;
@@ -197,49 +182,41 @@
     }
 
     div .form-tec {
-        font-size: 10vh;
+        display: block;
         background-color: #1A7FBD;
-        text-align: left;
-        margin: 10px 0px;
-        width: 100%;
-        height: 120px;
-
-    }
-
-    .item1 {
-        font-size: 1.4vh;
+        padding: 15px;
+        height: 100px;      
         
     }
 
-    div .iform-tec {
-        font-size: 1px;
+    .itens {
+        
+        background-color: #1A7FBD;
         color: white;
-        text-indent: 1px;
-        padding: 10px;
-        display: flex;
-        flex-direction: row;
-        flex-wrap: wrap;
-        justify-content: first baseline;
-        align-items: center;
+        padding: 2px;
+        width: 100%;
         
-   }  
+        font-size: 12px;        
+        
+    }
 
 
     div .iform-tec > h2 {
         font-size: 1.8vh;
         color: white;
+        padding-bottom: 10px;
         text-align: left;
-        text-indent: 1px;
+        text-indent: 5px;
 
     }
 
     #question {
+        display: block;
         
-        
-        
-        
+        padding: 10px 10px;
         color: #1A7FBD;
-        
+        display: flex;
+        flex-direction: row;
     }
     
     .option {
@@ -251,11 +228,108 @@
         border-radius: 0.2rem;
         cursor: pointer;
         margin-right: 8%;
-        position: relative;
+        
+    }
+
+    .experiencia-profissional {
+        display: block;
+        height: 100px;
+        align-items: center;
+        
+        
+        
+    }
+
+    .experiencia-profissional h2 {
+        text-indent: 5px;
+        font-size: 1.8vh;
+        color: #1A7FBD;
+        padding: 10px 10px;
+    }
+
+    div .simounao {
+        display: inline;      
+    }
+
+    label #sim, #nao{
+        
+        all: unset;
+        width: 1rem;
+        height: 1rem;
+        border: 0.1rem solid #1A7FBD;
+        border-radius: 0.2rem;
+        cursor: pointer;
+        margin-left: 15px;
+        transform: translateY(4px);
+        
+    }
+
+    div .hr-form {
+        
+        padding: 20px 20px;
+    }
+
+    div .hr-form p {
+        font-size: 1.5vh;
+        text-align: center;
+    }
+
+    
+
+    .enviar {
+
+        height: 20px;
+        padding: 0px 20px;
+       
+    }
+
+    #form-button {
+        border: none;
+        border-radius: 8px;
+        background-color: #1A7FBD;
+        color: white;
+        height: 30px;
+        width: 250px;
+        cursor: pointer;
+    }
+
+    .term {
+        font-size: 0vh;
+        text-align: center;        
+        padding: 20px 20px;
+    }
+
+    .term p, a {
+        font-size: 1.1vh;
+        text-align: center;        
+        
+    }
+
+    .projeto {
+        display: block;
+        
+        width: 90%;
+        text-align: center;
+        position: absolute;
+        
+        left: 50%;
+        overflow: hidden;
+        transform: translate(-50%, 250%);
 
     }
 
-}
+    .projeto h1 {
+        color: #A4DCFF;
+        font-size: 3.5vh;
+    }
 
+    .space {
+        font-size: 1.5vh;
+    }
+
+    .space strong {
+        font-size: 1.5vh;
+    }
+}
 
     
