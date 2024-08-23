@@ -340,7 +340,7 @@
         display: block;
         height: 600px;
         transform: translate(0%, 150%);
-        background-color: aliceblue;
+        background-color: rgb(250, 250, 250);
 
     }
 
