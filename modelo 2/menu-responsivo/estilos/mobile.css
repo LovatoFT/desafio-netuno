@@ -88,7 +88,7 @@
     }
 
     section#formulario {
-        
+        box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.452);
         position: absolute;
         top: 50%;
         left: 50%;
@@ -335,6 +335,15 @@
     .space strong {
         font-size: 1.5vh;
     }
+
+    .problema {
+        display: block;
+        height: 600px;
+        transform: translate(0%, 150%);
+        background-color: aliceblue;
+
+    }
+
 }
 
     
