@@ -40,7 +40,7 @@
         display: flex;
         flex-direction: column;
         text-align: center;
-        /*padding-bottom: 1rem;*/
+        padding-bottom: 1rem;
     }
 
     .menu-celular .nav-item {
@@ -56,7 +56,7 @@
     }
 
     .menu-celular .seletivo-button button {
-        width: 100%; /* não sei ainda*/
+        width: 90%; /* não sei ainda*/
     }
 
     .open {
@@ -74,7 +74,7 @@
         position: relative;
         
         height: 100vw;
-        width: 100vw;
+        
         
     }
 
@@ -319,7 +319,7 @@
         
         left: 50%;
         overflow: hidden;
-        transform: translate(-50%, 350%);
+        transform: translate(-50%, 400%);
 
     }
 
@@ -339,8 +339,8 @@
     .problema {
         display: block;
         height: 600px;
-        transform: translate(0%, 150%);
-        background-color: rgb(250, 250, 250);
+        transform: translate(0%, 200%);
+        background-color: white;
 
     }
 
