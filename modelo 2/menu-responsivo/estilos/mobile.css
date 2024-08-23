@@ -70,11 +70,11 @@
     */
 
     main {
-        display: block;
+        
         position: relative;
         
         height: 100vw;
-        width: 96vw;
+        width: 100vw;
         
     }
 
