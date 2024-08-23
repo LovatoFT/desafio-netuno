@@ -70,10 +70,11 @@
     */
 
     main {
+        display: block;
         position: relative;
         
-        height: 80vh;
-        width: 92vw;
+        height: 100vw;
+        width: 96vw;
         
     }
 
@@ -303,6 +304,10 @@
         font-size: 1.1vh;
         text-align: center;        
         
+    }
+
+    section #formulario {
+        display: block;
     }
 
     .projeto {
