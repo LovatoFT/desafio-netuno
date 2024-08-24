@@ -1,7 +1,11 @@
 @charset "UTF-8";
 
 @media screen and (max-width: 768px){
+    header {
     
+        width: 97vw;
+    }
+
     .nav-item {
         display: none;
     }
@@ -72,8 +76,8 @@
     main {
         
         
-        width: 96vw;
-        height: 200px;
+        width: 97vw;
+        height: 100px;
         
         
     }
