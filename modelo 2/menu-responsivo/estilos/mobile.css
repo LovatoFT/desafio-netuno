@@ -215,10 +215,10 @@
 
     div .iform-tec > h2 {
         font-size: 1.7vh;
-        color: white;
-        padding-bottom: 7px;
+        color: white;padding-top: 5px;
+        padding-bottom: 5px;
         text-align: left;
-        text-indent: 4px;
+        text-indent: 10px;
 
     }
 

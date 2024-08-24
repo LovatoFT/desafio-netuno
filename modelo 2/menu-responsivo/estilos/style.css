@@ -20,7 +20,7 @@ body {
 
 header {
     
-    width: 98.5vw;
+    width: 99vw;
     background-color: #1A7FBD;
     box-shadow: 0px 3px 10px #0a324b70; 
     /* decidir depois com box ou sem box */
@@ -99,7 +99,7 @@ hr#linha {
 main {
     background-color: #1A7FBD;
     position: relative;
-    width: 98.5vw;
+    width: 99vw;
     height: 100%;
     
     
@@ -300,6 +300,7 @@ div .hr-form {
 div .hr-form p {
     font-size: 1.5vh;
     text-align: center;
+    color: #1A7FBD;
 }
 
 
