@@ -3,7 +3,7 @@
 @media screen and (max-width: 768px){
     header {
     
-        width: 97vw;
+        width: 98vw;
     }
 
     .nav-item {
@@ -76,7 +76,7 @@
     main {
         
         
-        width: 97vw;
+        width: 98vw;
         height: 200px;
         
         
@@ -320,7 +320,7 @@
     }
 
     .projeto {
-        height: 170vw;
+        height: 170vh;
         display: flex;
         text-align: center;
         background-color: #1A7FBD;
@@ -330,7 +330,7 @@
         
         align-items: center;
         justify-content: flex-end;
-        padding-top: 150px;
+        padding-top: 100px;
 
        
 
