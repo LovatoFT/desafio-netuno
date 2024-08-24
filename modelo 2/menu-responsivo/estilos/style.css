@@ -490,6 +490,35 @@ img#dev {
     
 }
 
+.top-jornada {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.invertido {
+    height: 10%;
+    width: 50%;
+    transform: scaleX(-1);
+}
+
+.seminverter {
+    height: 10%;
+    width: 50%;
+}
+
+.top-jornada h1 {
+    background: linear-gradient(to right, #1A7FBD, #A4DCFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    min-width: 30%;
+    text-align: center;
+}
+
+
 .card-jornada {
     display: flex;
     margin-top: 5%;
@@ -531,40 +560,47 @@ img#dev {
     font-weight: 800;
 }
 
-.btn {
-    width: 50%;
-    border-radius: 1vh;
-    border-style: none;
-    background-color: #000;
-    font-weight: 700;
-    transition: all 900ms linear 0s;
-    font-size: 1.8vh;
-}
-.btn:hover {
-    background-color: #A4DCFF;
-    color: #000;
-    opacity: 0.9;
-}
-.btn a {
-    text-decoration: none;
-    color: #FFF;
-}
+
   
-.btn-black {
+.botton-registro {
+    display: flex;
+    margin: auto;
+    padding: 10px;
     border-radius: 1vh;
     border-style: none;
-    background-color: #000;
+    background-color: black;
     font-weight: 700;
     transition: all 900ms linear 0s;
     font-size: 1.8vh;
-}
-.btn-black:hover {
-    background-color: #A4DCFF;
-    color: #000;
-    opacity: 0.9;
-}
-.btn-black:hover a {
-    text-decoration: none;
-    color: #000;
+    width: 45vw;
+    height: 30px;
 }
 
+.botton-registro a {
+    font-size: 2vw;
+    text-decoration: none;
+    color: white;
+    padding-bottom: 50px;
+    
+
+}
+
+.botton-registro:hover {
+    background-color: #7dccfe;
+    color: black;
+    opacity: 0.9;
+}
+.botton-registro:hover a {
+    text-decoration: none;
+    color: black;
+}
+
+.enter {
+    display: flex;
+    flex-direction: row;
+    position: relative;
+    padding-left: 10px;
+    align-items: center;
+
+
+}
