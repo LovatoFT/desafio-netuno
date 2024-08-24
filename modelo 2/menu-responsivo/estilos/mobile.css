@@ -71,23 +71,27 @@
 
     main {
         
-        position: absolute;
-        width: 100vw;
-        height: 30%;
+        
+        width: 96vw;
+        height: 200px;
         
         
     }
 
+    
+
+    
+
     img#banner {
-        width: 80vw;
-        
-        top: 50%;
-        left: 50%;
-        overflow: hidden;
-        transform: translate(-20%);
+        display: none;
+    }
+
+    img#dev {
+        display: none;
     }
 
     section#formulario {
+       
         box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.452);
         position: absolute;
         top: 90%;
@@ -106,6 +110,7 @@
     }
 
     div#formulario {
+       
         
         
     }
@@ -185,8 +190,8 @@
     div .form-tec {
         display: block;
         background-color: #1A7FBD;
-        padding: 13px;
-        height: 100px;      
+        padding: 10px;
+        height: 105px;      
         
     }
 
@@ -194,10 +199,10 @@
         
         background-color: #1A7FBD;
         color: white;
-        padding: 2px;
+        padding: 10px;
         width: 100%;
         
-        font-size: 12px;        
+        font-size: 10px;        
         
     }
 
@@ -205,7 +210,7 @@
     div .iform-tec > h2 {
         font-size: 1.7vh;
         color: white;
-        padding-bottom: 8px;
+        padding-bottom: 7px;
         text-align: left;
         text-indent: 4px;
 
@@ -311,21 +316,34 @@
     }
 
     .projeto {
-        width: 90%;
+        height: 170vw;
+        display: flex;
+        text-align: center;
+        background-color: #1A7FBD;
+        flex-direction: column;
+        flex-wrap: nowrap;
         
-        height: 100%;
         
-        
-        
-        left: 50%;
-        
+        align-items: center;
+        justify-content: flex-end;
+
        
 
     }
 
     .projeto h1 {
+        padding-bottom: 40px;
+        text-align: center;
         color: #A4DCFF;
         font-size: 3.5vh;
+    }
+
+    .dentro-projeto {
+        width: 100%;
+        
+        left: 0px;
+        color: white;
+        padding-bottom: 50px;
     }
 
     .space {
@@ -338,18 +356,15 @@
 
     .problema {
         
-        padding: 60px;
-        height: 250%;
-        display: block;
-        background-color: white;
+        
 
     }
 
     
     .problema div {
         
-        background-color: white;
-        height: 300px
+        
+        
     }
 
     .problema h1 {
@@ -367,11 +382,13 @@
         text-align: center;
         font-size: 2vh;
         
-        padding: 20px 35px;
+        padding: 15px 10px
+
     }
 
     
     .problema p {
+        padding-top: 10px;
         text-align: center;
         font-size: 1.5vh;
         
@@ -393,9 +410,9 @@
         
         
         text-align: center;
-        background-color: #FFF;
+        background-color: white;
         align-items: center;
-        width: 75%;
+        width: 80%;
         cursor: pointer;
         
         min-height: 25vh;
@@ -407,7 +424,7 @@
     }
 
     .cartao p {
-        padding: 10px;
+        padding-top: 25px;
         text-align: center;
         max-width: 100%;
         max-height: 100%;
@@ -422,12 +439,54 @@
     
     }.cartao p:hover {
         font-size: 90%;
+        padding-top: 15px;
     }
 
     .cartao div:hover {
         box-shadow: 0vh 0.1vh 2vh 0.2vh #000;
     }
-         
+
+    main .top-jornada h1 {
+    background: linear-gradient(to right, #1A7FBD, #A4DCFF);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    min-width: 30%;
+    text-align: center;
+    }
+    
+
+    main .jornada {
+        padding-top: 15%;
+        padding-bottom: 10%;
+        height: auto;
+    }
+    main .jornada .top-jornada img {
+        display: none;
+    }
+    main .jornada .card-jornada {
+        display: flex;
+        flex-direction: column;
+        padding: 0;
+    }
+    main .jornada .card-jornada .card-blue {
+        align-items: center;
+        justify-content: center;
+        width: 80%;
+        margin: auto;
+        margin-top: 5%;
+        padding: 2%;
+    }
+    main .jornada .card-jornada .card-blue div {
+        width: 0;
+        height: 0;
+    }
+    main .jornada .card-jornada .card-blue img {
+        width: 0;
+        height: 0;
+    }
+    
+             
 }
 
     

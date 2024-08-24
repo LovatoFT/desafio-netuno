@@ -9,13 +9,18 @@
     font-size: medium;
 }
 
+* h1 {
+    font-size: 3.5vh;
+}
+
 body {
-    background-color: #1A7FBD;
+    
 
 }
 
 header {
     
+    width: 96vw;
     background-color: #1A7FBD;
     box-shadow: 0px 3px 10px #0a324b70; 
     /* decidir depois com box ou sem box */
@@ -91,28 +96,27 @@ hr#linha {
 
 
 main {
-        
+    background-color: #1A7FBD;
     position: relative;
+    width: 97vw;
+    height: 100%;
     
-    height: 100vw;
-    width: 100vw;
     
 }
 
 img#banner {
-    width: 80vw;
-    
-    top: 50%;
-    left: 50%;
+    width: 90vw;
     overflow: hidden;
-    transform: translate(-20%);
+    transform: translate(-14%);
 }
+
+
 
 section#formulario {
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.452);
     position: absolute;
-    top: 50%;
-    left: 50%;
+    top: 5%;
+    left: 60%;
     overflow: hidden;
     
     background-color: white;
@@ -121,7 +125,7 @@ section#formulario {
     border-radius: 2vh;
     
 
-    transform: translate(-50%, -35%);
+    
     transition-duration: .5s; 
     transition-timing-function: ease;
 }
@@ -331,38 +335,230 @@ section #formulario {
     display: block;
 }
 
-.projeto {
-    display: block;
-    height: 40%;
-    width: 90%;
-    text-align: center;
-    position: absolute;
-    
-    left: 50%;
+img#dev {
+    width: 60%;
     overflow: hidden;
-    transform: translate(-50%, 350%);
-
+    transform: translate(0%);   
 }
+
+.projeto {
+    display: flex;
+    text-align: left;
+    background-color: #1A7FBD;
+    flex-direction: row;
+    justify-content: space-evenly;
+    flex-wrap: nowrap;
+    padding: 40px 70px;
+    align-content: stretch;
+    align-items: center;
+}
+
+.dentro-projeto {
+    width: 100%;
+    position: relative;
+    left: 40px;
+    color: white;
+}
+
+    
+
+
 
 .projeto h1 {
     color: #A4DCFF;
     font-size: 3.5vh;
+    
 }
 
 .space {
-    font-size: 1.5vh;
+    font-size: 2.5vh;
 }
 
 .space strong {
-    font-size: 1.5vh;
+    font-size: 2.5vh;
 }
 
 .problema {
     display: block;
-    height: 600px;
-    transform: translate(0%, 150%);
+    padding: 50px 60px;
+    
+    
     background-color: rgb(250, 250, 250);
 
 }
 
+.problema {
+        
+    
+    
+
+}
+
+
+.problema div {
+    
+    
+    
+}
+
+.problema h1 {
+
+    text-align: center;
+    background: linear-gradient(to right, #1A7FBD, #A4DCFF);
+    font-size: 3.5vh;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-weight: 900;
+    min-height: 10%;
+}
+
+.problema h2 {
+    text-align: center;
+    font-size: 2vh;
+    
+    padding: 20px 35px;
+}
+
+
+.problema p {
+    text-align: center;
+    font-size: 1.5vh;
+    
+    
+}
+
+.cartao {   
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    padding-top: 50px;
+    
+
+}
+
+.cartao div {
+    
+    
+    
+    
+    text-align: center;
+    background-color: #FFF;
+    align-items: center;
+    width: 75%;
+    cursor: pointer;
+    
+    min-height: 25vh;
+    border-radius: 2vh;
+    box-shadow: 0vh 2vh 4vh -2vh #000;
+    margin: 4%;
+    
+
+}
+
+.cartao p {
+    padding: 10px;
+    text-align: center;
+    max-width: 100%;
+    max-height: 100%;
+
+}
+
+.cartao  h2:hover {
+    font-size: 100%;
+
+
+
+
+}.cartao p:hover {
+    font-size: 90%;
+}
+
+.cartao div:hover {
+    box-shadow: 0vh 0.1vh 2vh 0.2vh #000;
+}
+
+.jornada {
+    
+    background-color: white;
+    
+}
+
+.card-jornada {
+    display: flex;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    justify-content: center;
+}
+.card-jornada .card-blue {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    background-color: #1A7FBD;
+    border-radius: 0.5rem;
+    box-shadow: 0vh 1vh 2vh -1vh #000;
+    width: 25vw;
+    height: 50%;
+    margin: 1vh;
+    margin-bottom: 5%;
+}
+.card-jornada .card-blue div {
+    background-color: #FFF;
+    margin: 3%;
+    padding: 2%;
+    height: 40%;
+    width: 15%;
+    border-radius: 1vh;
+}
+.card-jornada .card-blue img {
+    max-height: 70%;
+    max-width: 70%;
+}
+.card-jornada .card-blue p {
+    color: #FFF;
+}
+.card-jornada .card-blue:hover {
+    height: 51%;
+    box-shadow: 0vh 0.1vh 1vh 0.2vh #000;
+}
+.card-jornada .card-blue:hover p {
+    font-weight: 800;
+}
+
+.btn {
+    width: 50%;
+    border-radius: 1vh;
+    border-style: none;
+    background-color: #000;
+    font-weight: 700;
+    transition: all 900ms linear 0s;
+    font-size: 1.8vh;
+}
+.btn:hover {
+    background-color: #A4DCFF;
+    color: #000;
+    opacity: 0.9;
+}
+.btn a {
+    text-decoration: none;
+    color: #FFF;
+}
+  
+.btn-black {
+    border-radius: 1vh;
+    border-style: none;
+    background-color: #000;
+    font-weight: 700;
+    transition: all 900ms linear 0s;
+    font-size: 1.8vh;
+}
+.btn-black:hover {
+    background-color: #A4DCFF;
+    color: #000;
+    opacity: 0.9;
+}
+.btn-black:hover a {
+    text-decoration: none;
+    color: #000;
+}
 
