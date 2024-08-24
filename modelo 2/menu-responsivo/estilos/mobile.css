@@ -77,7 +77,7 @@
         
         
         width: 97vw;
-        height: 100px;
+        height: 200px;
         
         
     }
@@ -98,7 +98,7 @@
        
         box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.452);
         position: absolute;
-        top: 90%;
+        top: 50%;
         left: 50%;
         overflow: hidden;
         
@@ -108,7 +108,7 @@
         border-radius: 2vh;
         
 
-        transform: translate(-50%, -25%);
+        transform: translate(-50%, 10%);
         transition-duration: .5s; 
         transition-timing-function: ease;
     }
@@ -330,6 +330,7 @@
         
         align-items: center;
         justify-content: flex-end;
+        padding-top: 150px;
 
        
 
