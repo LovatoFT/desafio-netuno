@@ -121,8 +121,8 @@ section#formulario {
     overflow: hidden;
     
     background-color: white;
-    width: 300px;
-    height: 565px;
+    width: 400px;
+    height: 600px;
     border-radius: 2vh;
     
 
@@ -153,9 +153,9 @@ div#formulario > p {
 
 form > div.campo {
    
-    margin: 10px 13px;
+    margin: 13px 13px;
     align-items: center;
-    width: 91%;
+    width: 93%;
     height: 40%;
     display: block;  
     border: 1px solid   rgba(0, 0, 0, 0.500);
@@ -163,8 +163,8 @@ form > div.campo {
 }
 
 form > div.campolugar {
-    margin: 10px 13px;
-    width: 91%;
+    margin: 13px 13px;
+    width: 93%;
     height: 40%;
     display: block;    
     border: 1px solid rgba(0, 0, 0, 0.500);
@@ -209,10 +209,11 @@ select#estados {
 }
 
 div .form-tec {
+    width: 100%;
     display: block;
     background-color: #1A7FBD;
-    padding: 15px;
-    height: 100px;      
+    
+    height: 100px;     
     
 }
 
@@ -220,7 +221,7 @@ div .form-tec {
     
     background-color: #1A7FBD;
     color: white;
-    padding: 2px;
+    padding: 0px 0px 0px 15px;
     width: 100%;
     
     font-size: 12px;        
@@ -305,18 +306,21 @@ div .hr-form p {
 
 .enviar {
 
-    height: 20px;
-    padding: 0px 20px;
+    height: 30px;
+    padding: 15px 20px;
    
 }
 
 #form-button {
+    
+    display: block;
+    margin: auto;
     border: none;
     border-radius: 8px;
     background-color: #1A7FBD;
     color: white;
-    height: 30px;
-    width: 250px;
+    height: 35px;
+    width: 310px;
     cursor: pointer;
 }
 

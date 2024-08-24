@@ -108,7 +108,7 @@
         border-radius: 2vh;
         
 
-        transform: translate(-50%, 10%);
+        transform: translate(-50%);
         transition-duration: .5s; 
         transition-timing-function: ease;
     }
@@ -320,7 +320,7 @@
     }
 
     .projeto {
-        height: 170vh;
+        height: 150vh;
         display: flex;
         text-align: center;
         background-color: #1A7FBD;
