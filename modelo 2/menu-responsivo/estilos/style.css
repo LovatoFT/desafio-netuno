@@ -111,22 +111,27 @@ img#banner {
     transform: translate(-14%);
 }
 
+img#vetor3 {
+    position: relative;
+    left: 1297px;
+    top: -728px;
+    width: 15vw;
+    overflow: hidden;
+}
+
 
 
 section#formulario {
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.452);
     position: absolute;
     top: 5%;
-    left: 60%;
+    left: 59%;
     overflow: hidden;
     
     background-color: white;
     width: 400px;
     height: 600px;
-    border-radius: 2vh;
-    
-
-    
+    border-radius: 2vh; 
     transition-duration: .5s; 
     transition-timing-function: ease;
 }
@@ -348,6 +353,7 @@ img#dev {
 }
 
 .projeto {
+
     display: flex;
     text-align: left;
     background-color: #1A7FBD;
@@ -357,6 +363,8 @@ img#dev {
     padding: 40px 70px;
     align-content: stretch;
     align-items: center;
+    transform: translateY(-320px);
+    height: 200px;
 }
 
 .dentro-projeto {
@@ -531,11 +539,11 @@ img#dev {
     align-items: center;
     background-color: #1A7FBD;
     border-radius: 0.5rem;
-    box-shadow: 0vh 1vh 2vh -1vh #000;
+    box-shadow: 0vh 1vh 2vh -1vh black;
     width: 25vw;
     height: 50%;
     margin: 1vh;
-    margin-bottom: 5%;
+    
 }
 .card-jornada .card-blue div {
     background-color: #FFF;
@@ -548,6 +556,7 @@ img#dev {
 .card-jornada .card-blue img {
     max-height: 70%;
     max-width: 70%;
+    transform: translate(9px, 7px);
 }
 .card-jornada .card-blue p {
     color: #FFF;
