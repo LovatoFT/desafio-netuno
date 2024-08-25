@@ -111,13 +111,21 @@ img#banner {
     transform: translate(-14%);
 }
 
+img#vetor3 {
+    overflow: hidden;
+    position: relative;
+    top: -710px;
+    left: 1298px;
+    width: 221px;
+
+}
 
 
 section#formulario {
     box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.452);
     position: absolute;
     top: 5%;
-    left: 60%;
+    left: 59%;
     overflow: hidden;
     
     background-color: white;
@@ -342,7 +350,7 @@ section #formulario {
 }
 
 img#dev {
-    width: 60%;
+    width: 40%;
     overflow: hidden;
     transform: translate(0%);   
 }
@@ -352,15 +360,17 @@ img#dev {
     text-align: left;
     background-color: #1A7FBD;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    
     flex-wrap: nowrap;
-    padding: 40px 70px;
+    padding: 0px 70px;
     align-content: stretch;
     align-items: center;
+    transform: translatey(-190px);
 }
 
 .dentro-projeto {
-    width: 100%;
+    width: 50%;
     position: relative;
     left: 40px;
     color: white;
@@ -371,16 +381,19 @@ img#dev {
 
 
 .projeto h1 {
+    padding: 10px 0px;
     color: #A4DCFF;
     font-size: 3.5vh;
     
 }
 
 .space {
+    padding-top: 10px;
     font-size: 2.5vh;
 }
 
 .space strong {
+
     font-size: 2.5vh;
 }
 

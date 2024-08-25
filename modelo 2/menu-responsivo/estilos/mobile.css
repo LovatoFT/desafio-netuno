@@ -92,6 +92,10 @@
         display: none;
     }
 
+    img#vetor3 {
+        display: none;
+    }
+
     img#dev {
         display: none;
     }
@@ -201,7 +205,7 @@
     .itens {
         background-color: #1A7FBD;
         color: white;
-        padding: 0px 0px 0px 7px;
+        padding: 0px 0px 0px 24px;
         width: 100%;
     
         font-size: 9px;        
@@ -319,7 +323,7 @@
     }
 
     .projeto {
-        height: 140vh;
+        height: 130vh;
         display: flex;
         text-align: center;
         background-color: #1A7FBD;
@@ -330,6 +334,10 @@
         align-items: center;
         justify-content: flex-end;
         padding-top: 100px;
+        transform: none;
+        
+
+        
 
        
 
