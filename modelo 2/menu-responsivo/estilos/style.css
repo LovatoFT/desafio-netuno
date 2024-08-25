@@ -729,31 +729,31 @@ footer span {
     background-color: #FFF;
     opacity: 0.8;
 }
-footer .soc .logo-slogan {
+footer .redesocial .logo-slogan {
     width: 80%;
     height: 80%;
 }
-footer .soc .logo-slogan:hover {
+footer .redesocial .logo-slogan:hover {
     width: 82%;
 }
-footer .soc ul {
+footer .redesocial ul {
     display: flex;
     flex-direction: row;
     width: 20vw;
 }
-  footer .soc ul li {
+  footer .redesocial ul li {
     padding: 0.5rem;
     width: 2rem;
     height: 2rem;
 }
-footer .soc ul li a img {
+footer .redesocialul li a img {
     width: 1rem;
     height: 1rem;
 }
-footer .soc p {
+footer .redesocial p {
     font-size: 0.5rem;
 }
-footer .btn {
+footer .botao {
     margin-top: -5%;
     background-color: #FFF;
     width: 12vw;
@@ -761,13 +761,13 @@ footer .btn {
     box-shadow: none;
     text-align: center;
 }
-footer .btn a {
+footer .botao a {
     color: #000;
 }
-footer .btn a:hover {
+footer .botao a:hover {
     color: #FFF;
 }
-  footer .btn:hover {
+  footer .botao:hover {
     background-color: #000;
     border: 0.1rem solid #FFF;
 }
