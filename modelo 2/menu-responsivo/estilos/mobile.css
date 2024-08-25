@@ -127,12 +127,12 @@
     div#formulario > h1 {
         color: rgba(0, 0, 0, 0.500);
         text-align: center;
-        margin: 10px 10px;
+        margin: 10px 12px;
         text-align: left;
     }
 
     div#formulario > p {
-        margin: 10px 10px;
+        margin: 10px 12px;
         color: #1A7FBD;
         font-size: 0.8em;
         text-align: left;
@@ -209,7 +209,7 @@
     .itens {
         background-color: #1A7FBD;
         color: white;
-        padding: 0px 0px 0px 18px;
+        padding: 0px 7px 0px 18px;
         width: 100%;
     
         font-size: 9px;        
@@ -223,7 +223,7 @@
         color: white;padding-top: 5px;
         padding-bottom: 5px;
         text-align: left;
-        text-indent: 10px;
+        text-indent: 12px;
 
     }
 
@@ -537,6 +537,13 @@
         
         padding: 0px;
     
+    }
+    
+    footer {
+        width: 100vw;
+        transform: translatey(513vh);
+        color: white;
+        background-color: #000;
     }
     
 }
