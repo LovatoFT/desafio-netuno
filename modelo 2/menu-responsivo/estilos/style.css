@@ -114,8 +114,8 @@ img#banner {
 img#vetor3 {
     overflow: hidden;
     position: relative;
-    top: -710px;
-    left: 1298px;
+    top: -737px;
+    left: 1293px;
     width: 221px;
 
 }
@@ -389,12 +389,12 @@ img#dev {
 
 .space {
     
-    font-size: 1.5vh;
+    font-size: 2.5vh;
 }
 
 .space strong {
 
-    font-size: 1.5vh;
+    font-size: 2.5vh;
 }
 
 .backproblema{
@@ -455,19 +455,24 @@ img#dev {
     padding-top: 40px;
     text-align: left;
     font-size: 1.5vh;
-    
+
     
 }
 
 
 .cartao {   
+    
     display: flex;
     flex-direction: row;
     align-items: center;
     text-align: center;
-    padding-top: 50px;
-    
+    padding-top: 50px;  
 
+}
+
+.cartao  h2 {
+    text-align: center;
+    font-size: 1.5vh;
 }
 
 .cartao div {
