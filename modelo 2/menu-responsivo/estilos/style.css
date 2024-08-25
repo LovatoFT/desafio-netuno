@@ -400,7 +400,7 @@ img#dev {
 .backproblema{
     background-image: url(../imagens/Container2.png);
     background-repeat: no-repeat;
-    background-position: ;
+    
     background-position: left;
     background-color: white; 
     background-attachment: fixed; 
@@ -480,7 +480,7 @@ img#dev {
 .cartao  h2 {
     padding: 20px 0px;
     text-align: center;
-    font-size: 2vh;
+    font-size: 4vh;
 }
 
 .cartao div {
@@ -512,7 +512,7 @@ img#dev {
 }
 
 .cartao  h2:hover {
-    font-size: 100%;
+    font-size: 200%;
 
 
 
@@ -652,5 +652,30 @@ img#dev {
     display: flex;
     flex-direction: column;
     align-items: center;
-    padding-top: 50px;
+    padding: 50px;
+}
+
+.back-objetivos {
+    background-color: #1A7FBD ;
+}
+
+.Objetivos h1 {
+    font-size:5vh;
+    color: white;
+    padding: 50px;
+    text-align: center;
+      
+}
+
+
+    
+    
+
+
+
+.cartao-objetivos div{
+    
+    padding: 0px;
+    
+    
 }
