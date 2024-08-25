@@ -92,10 +92,6 @@
         display: none;
     }
 
-    img#vetor3 {
-        display: none;
-    }
-
     img#dev {
         display: none;
     }
@@ -196,15 +192,21 @@
         width: 100%;
         display: block;
         background-color: #1A7FBD;
-        height: 100px;       
+    
+        height: 100px;     
+       
+        
     }
 
     .itens {
         background-color: #1A7FBD;
         color: white;
-        padding: 0px 0px 0px 25px;
+        padding: 0px 0px 0px 7px;
         width: 100%;
-        font-size: 9px;         
+    
+        font-size: 9px;        
+           
+        
     }
 
 
@@ -214,10 +216,12 @@
         padding-bottom: 5px;
         text-align: left;
         text-indent: 10px;
+
     }
 
     #question {
         display: block;
+        
         padding: 10px 10px;
         color: #1A7FBD;
         display: flex;
@@ -240,6 +244,9 @@
         display: block;
         height: 100px;
         align-items: center;
+        
+        
+        
     }
 
     .experiencia-profissional h2 {
@@ -254,6 +261,7 @@
     }
 
     label #sim, #nao{
+        
         all: unset;
         width: 1rem;
         height: 1rem;
@@ -317,9 +325,14 @@
         background-color: #1A7FBD;
         flex-direction: column;
         flex-wrap: nowrap;
+        
+        
         align-items: center;
         justify-content: flex-end;
         padding-top: 100px;
+
+       
+
     }
 
     .projeto h1 {
@@ -359,7 +372,9 @@
     .problema h2 {
         text-align: center;
         font-size: 2vh;
+        
         padding: 15px 10px
+
     }
 
     
@@ -367,6 +382,8 @@
         padding-top: 10px;
         text-align: center;
         font-size: 1.5vh;
+        
+        
     }
 
     .cartao {   
@@ -374,18 +391,27 @@
         flex-direction: column;
         align-items: center;
         text-align: center;
+        
+
     }
 
     .cartao div {
+        
+        
+        
+        
         text-align: center;
         background-color: white;
-        align-items: center;        
+        align-items: center;
         width: 80%;
         cursor: pointer;
+        
         min-height: 25vh;
         border-radius: 2vh;
         box-shadow: 0vh 2vh 4vh -2vh #000;
         margin: 4%;
+        
+
     }
 
     .cartao p {
