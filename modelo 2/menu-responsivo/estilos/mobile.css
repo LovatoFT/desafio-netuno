@@ -540,11 +540,16 @@
     }
     
     footer {
-        width: 100vw;
+        width: 100%;
         transform: translatey(513vh);
         color: white;
         background-color: #000;
     }
     
+    .footer {
+        height: 30vh;
+        width: 90%;
+        
+    }
 }
     
