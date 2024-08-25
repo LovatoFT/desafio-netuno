@@ -438,6 +438,7 @@ img#dev {
     -webkit-text-fill-color: transparent;
     font-weight: 900;
     min-height: 10%;
+    width: 170px;
 }
 
 .problema h2 {
@@ -459,6 +460,12 @@ img#dev {
     
 }
 
+#problema {
+    padding-top: 40px;
+    font-size: 2vh;
+
+}
+
 
 .cartao {   
     
@@ -471,8 +478,9 @@ img#dev {
 }
 
 .cartao  h2 {
+    padding: 20px 0px;
     text-align: center;
-    font-size: 1.5vh;
+    font-size: 2vh;
 }
 
 .cartao div {
@@ -499,6 +507,7 @@ img#dev {
     text-align: center;
     max-width: 100%;
     max-height: 100%;
+    font-size: 2vh;
 
 }
 
@@ -509,7 +518,7 @@ img#dev {
 
 
 }.cartao p:hover {
-    font-size: 90%;
+    font-size: 100%;
 }
 
 .cartao div:hover {
@@ -575,8 +584,8 @@ img#dev {
     background-color: #FFF;
     margin: 3%;
     padding: 2%;
-    height: 40%;
-    width: 15%;
+    height: 50%;
+    width: 13%;
     border-radius: 1vh;
 }
 .card-jornada .card-blue img {
