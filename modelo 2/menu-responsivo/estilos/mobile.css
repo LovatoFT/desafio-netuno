@@ -75,6 +75,11 @@
     
     */
 
+    body {
+        
+        
+    }
+
     main {
         
         
@@ -554,10 +559,15 @@
     }*/
 
     footer {
-        transform: translatey(3440px);
+
+        position: relative;
+        top: 510vh;
+        
+        display: block;
+        flex-direction: column;
         color: white;
         background-color: #000;
-        width: 100%;
+        width: 98vw;
     }
     
     .footer {
