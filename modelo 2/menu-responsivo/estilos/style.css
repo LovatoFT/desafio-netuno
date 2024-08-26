@@ -370,7 +370,7 @@ img#frame {
 
 .projeto {
     
-
+    height: 100vh;
     display: flex;
     text-align: left;
     background-color: #1A7FBD;
@@ -541,12 +541,14 @@ img#frame {
 }
 
 .jornada {
-    
+    height: 100vh;
     background-color: white;
     
 }
 
 .top-jornada {
+    position: relative;
+    top: 30px;
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -570,15 +572,15 @@ img#frame {
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     font-weight: 900;
-    min-width: 30%;
+    min-width: 15%;
     text-align: center;
 }
 
 
 .card-jornada {
     display: flex;
-    margin-top: 5%;
-    margin-bottom: 5%;
+    margin-top: 8%;
+    margin-bottom: 8%;
     justify-content: center;
 }
 .card-jornada .card-blue {
@@ -671,6 +673,7 @@ img#frame {
 }
 
 .back-objetivos {
+    height: 100vh;
     background-color: #1A7FBD ;
 }
 
@@ -806,7 +809,7 @@ footer .contato p {
 
   }
 
-  img:hover {
+  #imgredes:hover {
     width: 90%;
     
 }
