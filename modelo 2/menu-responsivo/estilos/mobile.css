@@ -551,7 +551,7 @@
     footer {
 
         position: relative;
-        top: 505vh;
+        top: 508vh;
         width: 98vw;
         
         
@@ -559,11 +559,11 @@
     
     img.logo-slogan {
         width: 50%;
-        padding-bottom: 70px;
+        padding-bottom: 50px;
     }
 
     img.logo-slogan:hover {
-        padding-bottom: 70px;
+        padding-bottom: 50px;
         width: 60%;
     }
 
@@ -589,11 +589,11 @@
     footer .botao {
         border-radius: 1vh;
         position: relative;
-        right: 60px;
+        right: 50px;
         margin-top: -5%;
         background-color: #FFF;
-        width: 18vw;
-        height: 47px;
+        width: 19vw;
+        height: 57px;
         box-shadow: none;
         text-align: center;
     }
