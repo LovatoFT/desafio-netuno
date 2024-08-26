@@ -604,6 +604,10 @@
         text-align: center;
     }
 
+    footer .botao a {
+        font-size: medium;
+    }
+
     .nav li {
         right: 20px;
         position: relative;
