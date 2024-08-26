@@ -780,7 +780,7 @@ footer .botao a {
 footer .botao a:hover {
     color: #FFF;
 }
-  footer .botao:hover {
+footer .botao:hover {
     background-color: #000;
     border: 0.1rem solid #FFF;
 }

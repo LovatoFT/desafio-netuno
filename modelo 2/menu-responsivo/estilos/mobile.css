@@ -605,7 +605,7 @@
     }
 
     footer .botao a {
-        font-size: medium;
+        font-size: small;
     }
 
     .nav li {
@@ -617,7 +617,7 @@
     footer a {
         
         color: white;
-        font-size: small;
+        font-size: 11px;
         text-decoration: none;
     }
 
@@ -628,20 +628,27 @@
     }
 
     .contato p {
+        padding-bottom: 18px;
         left: 12px;
         position: relative;
         font-weight: 500;
-        font-size: 1vw;
+        font-size: 6px;
     }
 
     .contato {
-        
+        font-size: large
     }
 
     footer div ul li {
         
         padding-right: 0px;
         padding-bottom: 10px;
+        
+    }
+    footer span {
+        
+        height: 20vh;
+        background-color: #FFF;
         
     }
     
