@@ -206,7 +206,7 @@
         display: block;
         background-color: #1A7FBD;
     
-        height: 100px;     
+        height: 110px;     
        
         
     }
@@ -214,10 +214,10 @@
     .itens {
         background-color: #1A7FBD;
         color: white;
-        padding: 0px 7px 0px 18px;
+        padding: 0px 0px 0px 0px;
         width: 100%;
     
-        font-size: 9px;        
+        font-size: 15px;        
            
         
     }
@@ -546,117 +546,85 @@
     
     }
     
-    /*footer {
-        
-        width: 98vw;
-        transform: translatey(513vh);
-        color: white;
-        background-color: black;
-    }
     
-    .footer {
-        height: 30vh;
-        width: 90%;
-        
-    }*/
 
     footer {
 
         position: relative;
         top: 505vh;
-        
-        display: block;
-        flex-direction: column;
-        color: white;
-        background-color: #000;
         width: 98vw;
-    }
-    
-    .footer {
-        height: 30vh;
-        width: 90%;
-        margin: auto;
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
-        display: flex;
+        
         
     }
     
+    img.logo-slogan {
+        width: 50%;
+        padding-bottom: 70px;
+    }
+
+    img.logo-slogan:hover {
+        padding-bottom: 70px;
+        width: 60%;
+    }
+
+    img {
+        width: 50%;
+        padding: 0px;
+    }
+
+    img:hover {
+        width: 60%;
+        padding: 0px;
+    }
+
     footer p {
-        color: #FFF;
-        font-weight: 100;
+        
+        
+        padding-bottom: -23px;
+        
+        font-size: 7px;
+        
     }
-    footer a {
-        text-decoration: none;
-    }
-    footer a:hover {
-        font-weight: 800;
-    }
-    footer span {
-        width: 0.1rem;
-        height: 10vh;
-        background-color: #FFF;
-        opacity: 0.8;
-    }
-    footer .redesocial .logo-slogan {
-        width: 80%;
-        height: 80%;
-    }
-    footer .redesocial .logo-slogan:hover {
-        width: 82%;
-    }
-    footer .redesocial ul {
-        display: flex;
-        flex-direction: row;
-        width: 20vw;
-    }
-      footer .redesocial ul li {
-        padding: 0.5rem;
-        width: 2rem;
-        height: 2rem;
-    }
-    footer .redesocialul li a img {
-        width: 1rem;
-        height: 1rem;
-    }
-    footer .redesocial p {
-        font-size: 0.5rem;
-    }
+
     footer .botao {
+        border-radius: 1vh;
+        position: relative;
+        right: 60px;
         margin-top: -5%;
         background-color: #FFF;
-        width: 12vw;
-        height: 5vh;
+        width: 18vw;
+        height: 47px;
         box-shadow: none;
         text-align: center;
     }
-    footer .botao a {
-        color: #000;
-    }
-    footer .botao a:hover {
-        color: #FFF;
-    }
-      footer .botao:hover {
-        background-color: #000;
-        border: 0.1rem solid #FFF;
-    }
-    
-    .redesocial {
+
+    .nav li {
+        right: 20px;
+        position: relative;
         
-        display: flex;
-        flex-direction: row;
     }
-    
-    
-    footer div ul li {
-        padding-right: 10px;
-        padding-bottom: 10px;
-        margin-top: 10%;
+
+    footer a {
+        
+        color: white;
+        font-size: small;
+        text-decoration: none;
     }
+
+    footer a:hover {
+        color: #1A7FBD;
+        font-size: medium;
+        text-decoration: none;
+    }
+
+    .contato p {
+        left: 12px;
+        position: relative;
+        
+        font-size: 1vw;
+    }
+
     
-    footer .contato p {
-        margin-top: 10%;
-      }
+    
 }
     
