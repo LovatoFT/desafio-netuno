@@ -525,7 +525,9 @@
         height: 0;
     }
 
-    
+    .back-objetivos {
+        height: 120vh;
+    }
 
     .Objetivos h1 {
         font-size:3.5vh;
