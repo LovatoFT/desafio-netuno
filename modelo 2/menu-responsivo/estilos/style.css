@@ -138,9 +138,28 @@ section#formulario {
     border-radius: 2vh;
     transition-duration: .5s; 
     transition-timing-function: ease;
-    overflow: hidden;
+    
 
 }
+
+section#formulario::before {
+    content: "";
+    position: absolute;
+    top: -10px;
+    left: -10px;
+    width: 416px;
+    height: 645px;
+    background: linear-gradient(45deg, white 10%, transparent 25%, transparent 75%, white 90%);
+    border-radius: 2vh;
+    padding: 1px;
+    -webkit-mask: linear-gradient(to right, #fff, #fff) content-box, 
+                    linear-gradient(to right, #fff, #fff);
+    mask: linear-gradient(to right, #fff, #fff) content-box, 
+        linear-gradient(to right, #fff, #fff);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+}
+
 
 
 
