@@ -505,6 +505,12 @@
         padding-bottom: 5%;
         height: auto;
     }
+
+
+    .top-jornada {
+        top: 10px;
+    }
+
     .top-jornada img {
         display: none;
     }
