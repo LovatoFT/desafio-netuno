@@ -41,7 +41,6 @@
     }
 
     .menu-celular {
-        
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -49,7 +48,6 @@
     }
 
     .menu-celular .nav-item {
-        
         display: block;
         padding-bottom: 1rem;
         font-size: 1.6em;
@@ -75,23 +73,10 @@
     
     */
 
-    body {
-        
-        
-    }
-
     main {
-        
-        
         width: 98vw;
         height: 200px;
-        
-        
     }
-
-    
-
-    
 
     img#banner {
         display: none;
@@ -110,19 +95,15 @@
     }
 
     section#formulario {
-       
         box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.452);
         position: absolute;
         top: 50%;
         left: 50%;
         overflow: hidden;
-        
         background-color: white;
         width: 300px;
         height: 560px;
         border-radius: 2vh;
-        
-
         transform: translate(-50%);
         transition-duration: .5s; 
         transition-timing-function: ease;
@@ -140,12 +121,10 @@
         margin: 10px 12px;
         color: #1A7FBD;
         font-size: 0.8em;
-        text-align: left;
-        
+        text-align: left;     
     }
 
     form > div.campo {
-       
         margin: 10px 13px;
         align-items: center;
         width: 91%;
@@ -161,7 +140,6 @@
         height: 40%;
         display: block;    
         border: 1px solid rgba(0, 0, 0, 0.500);
-        
     }
 
     div.campo > label {
@@ -174,23 +152,17 @@
         transform: translateY(-1px);
         width: 89%;
         height: 39px;
-        
-        
     }
         
     form > div > input:focus-within {
         background-color: white;
     }
 
-    form > div > span.material-symbols-outlined {
-        
+    form > div > span.material-symbols-outlined {  
         color: #1A7FBD;
         padding-top: 3px;
         width: 25px;
         transform: translateY(4px);
-       
-        
-
     }
 
     select#estados {
@@ -209,8 +181,6 @@
         display: block;
         background-color: #1A7FBD;
         height: 110px;   
-       
-        
     }
 
     .itens {
@@ -221,8 +191,6 @@
         padding: 0px 0px 0px 10px;
         width: 96%;
         font-size: 15px;       
-           
-        
     }
 
 
@@ -232,12 +200,10 @@
         padding-bottom: 5px;
         text-align: left;
         text-indent: 12px;
-
     }
 
     #question {
         display: block;
-        
         padding: 10px 10px;
         color: #1A7FBD;
         display: flex;
@@ -245,24 +211,19 @@
     }
     
     .option {
-        
         all: unset;
         width: 1rem;
         height: 1rem;
         border: 0.1rem solid #1A7FBD;
         border-radius: 0.2rem;
         cursor: pointer;
-        margin-right: 8%;
-        
+        margin-right: 8%; 
     }
 
     .experiencia-profissional {
         display: block;
         height: 100px;
         align-items: center;
-        
-        
-        
     }
 
     .experiencia-profissional h2 {
@@ -282,9 +243,7 @@
     }
     
     .custom-radio + label::before {
-        
         border-radius: 4px;
-        
         display: inline-block;
         vertical-align: middle;
         margin: 5px 5px 10px 15px;
@@ -292,7 +251,6 @@
     
     
     div .hr-form {
-        
         padding: 20px 20px;
     }
 
@@ -304,7 +262,6 @@
     
 
     .enviar {
-
         height: 20px;
         padding: 0px 20px;
        
@@ -343,18 +300,10 @@
         background-color: #1A7FBD;
         flex-direction: column;
         flex-wrap: nowrap;
-        
-        
         align-items: center;
         justify-content: flex-end;
         padding-top: 100px;
         transform: none;
-        
-
-        
-
-       
-
     }
 
     .projeto h1 {
@@ -366,7 +315,6 @@
 
     .dentro-projeto {
         width: 100%;
-        
         left: 0px;
         color: white;
         padding-bottom: 50px;
@@ -385,14 +333,12 @@
         text-align: left;
         left: 0px;
         position: relative;
-        
         display: flex;
         flex-direction: column;
         width: 50%;
     }
 
     .problema h1 {
-
         text-align: center;
         background: linear-gradient(to right, #1A7FBD, #A4DCFF);
         font-size: 3.5vh;
@@ -405,22 +351,17 @@
     .problema h2 {
         text-align: center;
         font-size: 2vh;
-        
         padding: 20px 0px;
 
     }
 
     
     .problema p {
-        
         text-align: center;
         font-size: 1.5vh;
-        
-        
     }
 
     #problema {
-        
         font-size: 2vh;
     
     }
@@ -429,44 +370,30 @@
         font-size: 2vh;
     }
     
-
-    
-
     .cartao {   
         display: flex;
         flex-direction: column;
         align-items: center;
         text-align: center;
-        
-
     }
 
     .cartao div {
-        
-        
-        
-        
         text-align: center;
         background-color: white;
         align-items: center;
         width: 70%;
         cursor: pointer;
-        
         min-height: 25vh;
         border-radius: 2vh;
         box-shadow: 0vh 2vh 4vh -2vh #000;
         margin: 4%;
-        
-
     }
 
     .cartao p {
-        
         padding-top: 15px;
         text-align: center;
         max-width: 100%;
         max-height: 100%;
-
     }
 
     .cartao  h2 {
@@ -477,9 +404,7 @@
     .cartao  h2:hover {
         font-size: 200%;
 
-    
 
-    
     }.cartao p:hover {
         font-size: 90%;
         padding-top: 15px;
@@ -498,8 +423,6 @@
     text-align: center;
     }
     
-    
-
     .jornada {
         padding-top: 15%;
         padding-bottom: 5%;
@@ -514,6 +437,7 @@
     .top-jornada img {
         display: none;
     }
+
     .card-jornada {
         
         margin-bottom: 20%;
@@ -525,16 +449,13 @@
     .card-jornada .card-blue{
         width: 27vw;
     }
-    .card-jornada{
-        
-    }
 
-    
     .card-jornada .card-blue div {
         background-color: #1A7FBD;
         width: 0;
         height: 0;
     }
+
     .card-jornada .card-blue img {
         width: 0;
         height: 0;
@@ -548,28 +469,20 @@
         font-size:3.5vh;
         color: white;
         padding: 40px;
-        text-align: center;
-          
+        text-align: center;      
     }
     
     .cartao-objetivos {
-        
         display: flex;
         flex-direction: row;
-        
         padding: 0px;
     
     }
     
-    
-
     footer {
-
         position: relative;
         top: 485vh;
         width: 98vw;
-        
-        
     }
     
     img.logo-slogan {
@@ -592,19 +505,12 @@
         padding: 0px;
     }
 
-    footer p {
-        
-        
-        
-        
+    footer p {    
         padding-bottom: -23px;
-        
         font-size: 7px;
-        
     }
 
     footer .botao {
-        
         border-radius: 1vh;
         position: relative;
         right: 50px;
@@ -623,11 +529,9 @@
     .nav li {
         right: 20px;
         position: relative;
-        
     }
 
     footer a {
-        
         color: white;
         font-size: 11px;
         text-decoration: none;
@@ -652,16 +556,13 @@
     }
 
     footer div ul li {
-        
         padding-right: 0px;
         padding-bottom: 10px;
-        
     }
-    footer span {
-        
+
+    footer span {    
         height: 20vh;
-        background-color: #FFF;
-        
+        background-color: #FFF;        
     }
     
 }
