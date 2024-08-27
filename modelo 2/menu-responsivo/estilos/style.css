@@ -286,21 +286,39 @@ div .iform-tec > h2 {
     padding: 10px 10px;
 }
 
-div .simounao {
-    display: inline;      
+.custom-radio{
+    
+    display: none;
 }
 
-label #sim, #nao{
+.simounao {
+    color: rgba(0, 0, 0, 0.500);
+    display: flex;
+    flex-direction: row;
     
-    all: unset;
-    width: 1rem;
-    height: 1rem;
-    border: 0.1rem solid #1A7FBD;
-    border-radius: 0.2rem;
-    cursor: pointer;
-    margin-left: 15px;
-    transform: translateY(4px);
+}
+
+
+.custom-radio + label::before {
+    content: "";
+    width: 18px;
+    height: 18px;
+    border-radius: 4px;
     
+    background-color: white;
+    border: 1px solid #1A7FBD;
+    display: inline-block;
+    vertical-align: middle;
+    margin: 5px 5px 10px 15px;
+}
+
+.custom-radio:checked + label::before {
+    background-color: #1A7FBD;
+    
+    box-sizing: border-box;
+    border: 0px solid white;
+    padding: 5px;
+
 }
 
 div .hr-form {
