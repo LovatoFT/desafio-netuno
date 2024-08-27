@@ -117,7 +117,7 @@ img#banner {
 img#vetor3 {
     width: 14%;
     overflow: hidden;
-    transform: translate(-58%, -119%);
+    transform: translate(-58%, -109%);
 
 }
 
@@ -125,22 +125,26 @@ img#vetor3 {
 
 
 section#formulario {
-    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.452);
+    
+    
     position: absolute;
     top: 5%;
     left: 51%;
-    overflow: hidden;
     
+    box-shadow: 2px 3px 3px rgba(0, 0, 0, 0.452);
     background-color: white;
     width: 400px;
     height: 600px;
     border-radius: 2vh;
-    
-
-    
     transition-duration: .5s; 
     transition-timing-function: ease;
+    overflow: hidden;
+
 }
+
+
+
+
 
 div#formulario {
     
@@ -768,7 +772,7 @@ footer .redesocial ul {
     flex-direction: row;
     width: 20vw;
 }
-  footer .redesocial ul li {
+footer .redesocial ul li {
     padding: 0.5rem;
     width: 2rem;
     height: 2rem;
