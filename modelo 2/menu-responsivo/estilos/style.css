@@ -17,7 +17,7 @@
 
 header {
     background-color: #1A7FBD;
-    box-shadow: 0px 3px 10px #0a324b70; 
+    box-shadow: 0px 15px 10px #1A7FBD; 
     /* decidir depois com box ou sem box */   
 }    
 
@@ -84,7 +84,7 @@ header {
 hr#linha {
     display: flex;
     border: 0;
-    height: 1px;
+    height: 2px;
     background-image: linear-gradient(to right, rgba(255, 255, 255, 0), rgb(255, 255, 255), rgba(255, 255, 255, 0));
 }
 
@@ -395,8 +395,9 @@ img#frame {
     font-size: 2.5vh;
 }
 
-.space strong {
+.spacestrong {
     font-size: 2.5vh;
+    padding-top: 12px;
 }
 
 .backproblema{
@@ -593,7 +594,7 @@ img#frame {
     font-weight: 700;
     transition: all 900ms linear 0s;
     font-size: 1.8vh;
-    width: 47vw;
+    width: 45vw;
     height: 30px;
 }
 
@@ -605,7 +606,7 @@ img#frame {
 }
 
 .botton-registro:hover {
-    background-color: #7dccfe;
+    background-color: #027993;
     color: black;
     opacity: 0.9;
 }
@@ -621,6 +622,7 @@ img#frame {
     position: relative;
     padding-left: 10px;
     align-items: center;
+    align-items: flex-start;
 }
 
 .vetor2 {
