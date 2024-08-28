@@ -110,7 +110,7 @@ img#vetor3 {
 section#formulario {
     
     position: absolute;
-    top: 5%;
+    top: 4%;
     left: 51%;
     box-shadow: 2px 3px 100px rgba(0, 0, 0, 0.452);
     background-color: white;
@@ -365,7 +365,7 @@ img#frame {
 
 
 .projeto {
-    height: 100vh;
+    height: 85vh;
     display: flex;
     text-align: left;
     background-color: #1A7FBD;
@@ -375,7 +375,7 @@ img#frame {
     padding: 0px 70px;
     align-content: stretch;
     align-items: center;
-    transform: translatey(-70px);
+    transform: translatey(70px);
 }
 
 .dentro-projeto {
@@ -410,10 +410,12 @@ img#frame {
 }
 
 .problema {
+    position: relative;
+    top: 50px;
     margin: auto;
     background-repeat: no-repeat;
-    width:90%;
-    height: 100%;
+    width: 90%;
+    height: 103vh;
 }
 
 
@@ -724,7 +726,7 @@ footer .botao {
     border-radius: 1vh;
     margin-top: 0;
     background-color: #FFF;
-    width: 12vw;
+    width: 14vw;
     height: 5vh;
     box-shadow: none;
     text-align: center;
