@@ -16,10 +16,12 @@
 }
 
 html {
+    
     background-color: #1A7FBD;
 }
 
 header {
+    width: 100vw;
     background-color: #1A7FBD;
     box-shadow: 0px 15px 10px #1A7FBD; 
     /* decidir depois com box ou sem box */   
@@ -97,6 +99,7 @@ main {
     background-color: #1A7FBD;
     position: relative;
     height: 100%;
+    width: 100vw;
 }
 
 img#banner {
@@ -655,12 +658,15 @@ img#frame {
 }
 
 footer {
+
+    width: 100vw;
     color: white;
     background-color: #000;
-    width: 100%;
+    
 }
 
 .footer {
+    
     height: 25vh;
     width: 90%;
     margin: auto;

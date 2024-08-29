@@ -1,6 +1,10 @@
 @charset "UTF-8";
 
 @media screen and (min-width: 769px) and (max-width: 992px){
+    header {
+        width: 100vw;
+    }
+
     
     .logo img { 
         width: 20vw;
@@ -94,6 +98,7 @@
     }
 
     .footer {
+        
         height: 30vh;
     }
 

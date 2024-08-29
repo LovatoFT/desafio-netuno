@@ -6,6 +6,10 @@
         width: 98vw;
     }
 
+    main {
+        width: 98vw;
+    }
+
     .nav-item {
         display: none;
     }
@@ -251,7 +255,7 @@
     
     
     div .hr-form {
-        padding: 20px 20px;
+        padding: 15px 20px;
     }
 
     div .hr-form p {
@@ -347,7 +351,7 @@
 
     .problema h1 {
         position: relative;
-        left: 90px;
+        
         text-align: center;
         background: linear-gradient(to right, #1A7FBD, #A4DCFF);
         font-size: 3.5vh;
