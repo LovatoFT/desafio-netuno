@@ -2,6 +2,22 @@
 
 @media screen and (min-width: 769px) and (max-width: 992px){
     
+    .logo img { 
+        width: 20vw;
+    }
+
+    .nav-bar {
+        
+        padding: 1rem 0rem;
+    }
+
+    .nav-link {
+        
+        font-size: 15px;
+        
+    }
+    
+
     section#formulario {
         width: 320px;
         top: 3%;
@@ -46,13 +62,34 @@
     .artigo {
         left: 50%;
     }
+
+    .top-jornada {
+        position: relative;
+        top: 25%;
+        
+    }
     
-    .card-jornada {    
+    .card-jornada {  
+        
+        margin-top: 35%;
         margin-bottom: 15%;
         
     }
+
+    .jornada {
+        height: 115vh;
+    }
+
     .vetor2 {
         padding: 60px;
+    }
+
+    .back-objetivos{
+        height: 90vh;
+    }
+
+    .footer {
+        height: 30vh;
     }
 
     footer .botao{
