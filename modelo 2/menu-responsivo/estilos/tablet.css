@@ -52,7 +52,7 @@
 
     .projeto {
         height: 80vh;
-        transform: translatey(-135px);
+        transform: translatey(-80px);
     }
 
     .botton-registro {
@@ -80,6 +80,11 @@
         height: 115vh;
     }
 
+    .card-jornada .card-blue img {
+        position: relative;
+        transform: translate(2px, 6px);
+    }
+
     .vetor2 {
         padding: 60px;
     }
@@ -93,6 +98,9 @@
     }
 
     footer .botao{
+        position: relative;
+        left: -50px;
         height: 9vh;
     }
+
 }
