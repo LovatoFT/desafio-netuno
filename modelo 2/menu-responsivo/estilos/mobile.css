@@ -3,11 +3,7 @@
 @media screen and (max-width: 768px){
     header {
     
-        width: 98vw;
-    }
-
-    main {
-        width: 98vw;
+        width: 99vw;
     }
 
     .nav-item {
@@ -78,7 +74,7 @@
     */
 
     main {
-        width: 98vw;
+        width: 99vw;
         height: 200px;
     }
 
@@ -495,7 +491,7 @@
     footer {
         position: relative;
         top: 530vh;
-        width: 99vw;
+        width: 100vw;
     }
     
     img.logo-slogan {
