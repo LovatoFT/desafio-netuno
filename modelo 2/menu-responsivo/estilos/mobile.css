@@ -346,6 +346,8 @@
     }
 
     .problema h1 {
+        position: relative;
+        left: 90px;
         text-align: center;
         background: linear-gradient(to right, #1A7FBD, #A4DCFF);
         font-size: 3.5vh;
@@ -489,7 +491,7 @@
     footer {
         position: relative;
         top: 530vh;
-        width: 98vw;
+        width: 99vw;
     }
     
     img.logo-slogan {
