@@ -15,8 +15,7 @@
     font-size: 3.5vh;
 }
 
-html {
-    
+html { 
     background-color: #1A7FBD;
 }
 
@@ -126,12 +125,10 @@ section#formulario {
     border-radius: 2vh;
     transition-duration: .5s; 
     transition-timing-function: ease;
-    
 }
 
 
 #formulario::before {
-    
     content: "";
     position: absolute;
     top: -10px;
@@ -165,8 +162,7 @@ div#formulario > p {
     margin: 10px 12px;
     color: #1A7FBD;
     font-size: 0.8em;
-    text-align: left;
-    
+    text-align: left;   
 }
 
 form > div.campo {
@@ -175,8 +171,7 @@ form > div.campo {
     width: 93%;
     height: 40%;
     display: block;  
-    border: 1px solid   rgba(0, 0, 0, 0.500);
-    
+    border: 1px solid   rgba(0, 0, 0, 0.500); 
 }
 
 form > div.campolugar {
@@ -184,8 +179,7 @@ form > div.campolugar {
     width: 93%;
     height: 40%;
     display: block;    
-    border: 1px solid rgba(0, 0, 0, 0.500);
-    
+    border: 1px solid rgba(0, 0, 0, 0.500);  
 }
 
 div.campo > label {
@@ -244,7 +238,6 @@ div .iform-tec > h2 {
     padding-bottom: 10px;
     text-align: left;
     text-indent: 12px;
-
 }
 
 #question {
@@ -263,7 +256,6 @@ div .iform-tec > h2 {
     border-radius: 0.2rem;
     cursor: pointer;
     margin-right: 8%;
-    
 }
 
 .experiencia-profissional {
@@ -271,8 +263,7 @@ div .iform-tec > h2 {
     z-index: 4;
     display: block;
     height: 100px;
-    align-items: center;
-    
+    align-items: center; 
 }
 
 .experiencia-profissional h2 {
@@ -289,8 +280,7 @@ div .iform-tec > h2 {
 .simounao {
     color: rgba(0, 0, 0, 0.500);
     display: flex;
-    flex-direction: row;
-    
+    flex-direction: row; 
 }
 
 
@@ -311,7 +301,6 @@ div .iform-tec > h2 {
     box-sizing: border-box;
     border: 0px solid white;
     padding: 5px;
-
 }
 
 div .hr-form {
@@ -473,7 +462,6 @@ img#frame {
     align-items: center;
     text-align: center;
     padding-top: 50px;  
-
 }
 
 .cartao  h2 {
@@ -659,7 +647,6 @@ img#frame {
 }
 
 footer {
-
     width: 100vw;
     color: white;
     background-color: #000;
@@ -667,7 +654,6 @@ footer {
 }
 
 .footer {
-    
     height: 25vh;
     width: 90%;
     margin: auto;
