@@ -1,1 +1,1 @@
-<a href="https://lovatoft.github.io/desafio-netuno/">clique no link para ver "Meu Desafio Netuno"</a>
+<a href="https://lovatoft.github.io/desafio-netuno/">Clique no link para ver meu "Desafio Netuno"</a>
