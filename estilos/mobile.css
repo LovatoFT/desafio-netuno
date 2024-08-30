@@ -344,6 +344,7 @@
     .problema h1 {
         position: relative;
         text-align: center;
+        left: 30px;
         background: linear-gradient(to right, #1A7FBD, #A4DCFF);
         font-size: 3.5vh;
         -webkit-background-clip: text;
